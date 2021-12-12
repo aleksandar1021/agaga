@@ -1,16 +1,12 @@
-#pozadina{
-    width: 100%;
-    height: 200px;
-    background-image: url("iza.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+#cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: burlywood;
 }
 
-#prostor{
-    height: 500px;
-}
-
-body{
-    background-color: aqua;
+.dete{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(51, 51, 179);
 }
